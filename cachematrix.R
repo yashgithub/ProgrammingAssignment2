@@ -65,7 +65,7 @@ cacheSolve <- function(x, ...) {
   data <- x$get()
   
   # calculate inverse of matrix
-  invMatrix =  solve(data, ...)
+  invMatrix <-  solve(data, ...)
   
   #set inverse of matrix in special matrix x
   x$setInvMatrix(invMatrix)
